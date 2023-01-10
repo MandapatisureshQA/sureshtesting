@@ -1,0 +1,55 @@
+/* Footer Styles */
+.footer-container{
+    width: 100%;
+    min-height: 300px;
+    background: url("./../Images/Software-Testing.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+}
+.footer-container::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: gray;
+    z-index: -1;
+}
+.footer-container .footer-center{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.footer-container .footer-links{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 30px;
+    align-items: center;
+}
+.footer-container .footer-link{
+    font-size: 16px;
+    font-weight: bold;
+    color:white;
+    text-transform: capitalize;
+    transition: var(--transition);
+}
+.footer-container .footer-link.active,
+.footer-container .footer-link:hover
+{
+    text-decoration: underline;
+}
+.footer-copy-right p{
+    font-size: 16px;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: bold;
+}
+

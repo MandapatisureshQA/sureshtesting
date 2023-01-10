@@ -1,0 +1,125 @@
+.menu-nav {
+    margin-top: 5px;
+    background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.menu-nav .menu-hamburger {
+    width: 30px;
+}
+.menu-nav .menu-close-button {
+    width: 30px;
+}
+
+.menu-nav .menu-links-main {
+    display: none;
+}
+
+.menu-nav .right-side {
+    display: none;
+}
+
+.menu-nav .two {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.two h1{
+    color: white;
+    font-size: 16px;
+
+}
+
+/* menu-aside */
+.menu-container {
+    background: #f857a6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    transition: all 0.3s linear;
+    z-index: 21;
+}
+.menu-container .menu-header {
+    display: flex;
+    flex-direction: row;
+    
+}
+.menu-container .menu-logo-section {
+    width: 25px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    margin-left: 10px;
+    margin-right: 300px ;
+}
+.menu-container .menu-close-button {
+    width: 25px;
+    display: flex;
+}
+.menu-container .menu-links {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+}
+.menu-container .menu-links .nav-link {
+    color: white;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+.menu-container .menu-links .nav-link.active {
+    background-color: white;
+    color: black;
+}
+
+.menu-container.show-sidebar {
+    left: 0%;
+    opacity: 1;
+}
+
+
+
+
+@media screen and (min-width:992px) {
+    .menu-nav {
+        width: 100%;
+        height: auto;
+    }
+    .menu-nav .menu-content {
+       width: 100%;
+        display: flex;
+                      
+    }
+    .menu-nav .menu-hamburger {
+        display: none;
+    }
+
+    .menu-nav .left-side {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: grey;
+    }
+    .menu-nav .right-side {
+        width: 70%;
+        display: flex;
+        margin-left: 20px;
+        background: grey;
+    }
+    .menu-nav .nav-link {
+        width: 100%;
+        color: white;
+        font-size: 17px;
+        line-height: 2.0;
+        letter-spacing: 1px;
+        font-weight: bold;
+    }
+}

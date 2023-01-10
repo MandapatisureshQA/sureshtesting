@@ -1,0 +1,34 @@
+*,
+::after,
+::before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+*:focus {
+    outline-width: 2px;
+    outline-offset: 1px;
+    outline-color: black;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+
+.wrapper {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
