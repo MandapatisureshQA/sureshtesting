@@ -90,20 +90,32 @@
     display: none;
 }
 
-.menu-nav .menucontent {
-    
-}
-
 .menu-nav .menucontent h2 {
     color: red;
     background: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
 }
 .menu-nav .menucontent h4 {
-    color: white;
+    color: red;
+    background: black;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
+
 .menu-nav .menucontent h5 {
     color: white;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: bold;
 }
+.menu-nav .menucontent p{
+    font-size: 13px;
+}
+
 
 @media screen and (min-width:992px) {
     .menu-nav {
