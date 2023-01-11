@@ -1,9 +1,8 @@
 .menu-nav {
     margin-top: 10px;
-    background: #f857a6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    box-shadow: 0 0 10px black;
+   /* background-color: #1E80C1; */
+   background-color: #414C6B;
+   /* background: linear-gradient(145deg, #1E80C1, #414C6B); */
 }
 
 
@@ -121,11 +120,12 @@
     font-weight: bold;
 }
 .menu-nav .menucontent p{
-    font-size: 13px;
+    font-size: 14px;
     color: white;
 }
 .menu-nav .arrows {
     width: 100%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -188,6 +188,7 @@
         background: grey;              
         padding-left: 10px;
         border-radius: 15px ;
+        width: 400px;
         height: 100vh;
         overflow-y: auto;
     }
