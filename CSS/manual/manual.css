@@ -45,6 +45,7 @@
     left: 100%;
     transition: all 0.3s linear;
     z-index: 21;
+    overflow: scroll;
 }
 .menu-container .menu-header {
     display: flex;
