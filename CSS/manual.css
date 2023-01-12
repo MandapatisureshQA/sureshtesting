@@ -115,8 +115,8 @@
 }
 .menu-nav .menucontent img {
     width: 360px;
-    padding-right: 50px;
-    
+    padding-right: 5px;
+    padding-left: 5px;
     
 }
 .menu-nav .menucontent ol {
@@ -210,7 +210,7 @@
         background: grey;              
         padding-left: 10px;
         border-radius: 15px ;
-        width: 400px;
+        width: 700px;
         height: 100vh;
         overflow-y: auto;
         
