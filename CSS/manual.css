@@ -28,7 +28,7 @@
 }
 .two h1{
     color: white;
-    font-size: 16px;
+    font-size: 13px;
 
 }
 
@@ -44,7 +44,7 @@
     left: 100%;
     transition: all 0.3s linear;
     z-index: 21;
-    overflow: scroll;
+    
 }
 .menu-container .menu-header {
     display: flex;
@@ -110,6 +110,7 @@
     margin-top: 20px;
     letter-spacing: 1px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .menu-nav .menucontent h5 {
@@ -122,6 +123,7 @@
 .menu-nav .menucontent p{
     font-size: 14px;
     color: white;
+    padding-top: 5px;
 }
 .menu-nav .arrows {
     width: 100%;
@@ -191,6 +193,7 @@
         width: 400px;
         height: 100vh;
         overflow-y: auto;
+        
     }
     
     .menu-nav .right-side {
@@ -208,5 +211,44 @@
     
 .middle-image {
     display: none;
+}
+.menu-nav .menucontent h2 {
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: red;
+    background: rgb(66, 62, 62);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.menu-nav .menucontent h4 {
+    font-size: 25px;
+    color: red;
+    background: rgb(66, 62, 62);
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.menu-nav .menucontent h5 {
+    color: white;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.menu-nav .menucontent p{
+    font-size: 15px;
+    color: white;
+}
+.menu-nav .arrows {
+    width: 100%;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }    
 }
