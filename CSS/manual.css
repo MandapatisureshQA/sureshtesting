@@ -135,7 +135,7 @@
     font-size: 14px;
 }
 .menu-nav .menucontent ol li {
-    width: 95%;
+    /* width: 95%; */
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
