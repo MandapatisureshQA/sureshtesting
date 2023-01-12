@@ -112,7 +112,15 @@
     font-weight: bold;
     margin-bottom: 10px;
 }
-
+.menu-nav .menucontent img {
+    padding-right: 40px;
+    
+}
+.menu-nav .menucontent ol {
+    margin-left: 20px;
+    color: white;
+    
+}
 .menu-nav .menucontent h5 {
     color: white;
     margin-top: 20px;
