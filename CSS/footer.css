@@ -56,3 +56,9 @@
     font-weight: bold;
 }
 
+@media screen and (min-width:992px) {
+    .footer-container .footer-links {
+        flex-direction: row;
+        column-gap: 50px;
+    }
+}
