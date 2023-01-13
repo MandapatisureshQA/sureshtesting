@@ -50,6 +50,7 @@
     display: flex;
     flex-direction: row;
     
+    
 }
 .menu-container .menu-logo-section {
     width: 25px;
@@ -64,7 +65,10 @@
 .menu-container .menu-links {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 5px;
+    margin-left: 15px;
+    height: 100vh;
+    overflow-y: auto;
     /* align-items: center; */
     
 }
