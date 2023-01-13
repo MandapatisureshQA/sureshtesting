@@ -65,18 +65,17 @@
 .menu-container .menu-links {
     display: flex;
     flex-direction: column;
-    row-gap: 5px;
+    row-gap: 2px;
     margin-left: 15px;
     height: 100vh;
     overflow-y: auto;
-    /* align-items: center; */
     
 }
 .menu-container .menu-links .nav-link {
     color: white;
     letter-spacing: 1px;
-    padding: 5px 10px;
-    font-size: 16px;
+    /* padding: 5px 10px; */
+    font-size: 13px;
     font-weight: bold;
     border-radius: 4px;
 }
