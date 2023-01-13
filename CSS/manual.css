@@ -222,9 +222,8 @@
     .menu-nav .nav-link {
         width: 100%;
         color: white;
-        font-size: 17px;
+        font-size: 13px;
         line-height: 2.0;
-        letter-spacing: 1px;
         font-weight: bold;
     }
   .menu-nav .nav-link.active {
@@ -239,7 +238,7 @@
         padding-left: 10px;
         border-radius: 15px ;
         width: 400px;
-        height: 100vh;
+        height: 80vh;
         overflow-y: auto;
         
     }
