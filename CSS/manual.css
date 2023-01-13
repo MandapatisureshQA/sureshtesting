@@ -69,7 +69,13 @@
     margin-left: 15px;
     height: 100vh;
     overflow-y: auto;
-    
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+} 
+::-webkit-scrollbar-thumb {
+    background: white;
 }
 .menu-container .menu-links .nav-link {
     color: white;
@@ -181,6 +187,12 @@
         
 
     }
+     ::-webkit-scrollbar {
+        width: 5px;
+    } 
+    ::-webkit-scrollbar-thumb {
+        background: white;
+    }
     .menu-nav .menu-content {
        width: 100%;
         display: flex;
@@ -226,7 +238,7 @@
         background: grey;              
         padding-left: 10px;
         border-radius: 15px ;
-        width: 700px;
+        width: 400px;
         height: 100vh;
         overflow-y: auto;
         
