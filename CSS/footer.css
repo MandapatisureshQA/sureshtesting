@@ -61,4 +61,7 @@
         flex-direction: row;
         column-gap: 50px;
     }
+    .footer-container {
+        min-height: 100px;
+    }
 }
