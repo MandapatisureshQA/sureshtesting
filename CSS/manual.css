@@ -113,6 +113,8 @@
     width: 90%;    
     color: red;
     background: rgb(66, 62, 62);
+    padding: 5px;
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -129,7 +131,8 @@
     margin-left: auto;
     letter-spacing: 1px;
     font-weight: bold;
-    margin-bottom: 10px;
+    padding: 5px;
+    /* margin-bottom: 10px; */
 }
 .menu-nav .menucontent img {
     display: block;
@@ -189,8 +192,26 @@
 .menu-nav .arrows img{
     width: 30px;
 
-}
+ }
+ .underline{
+    width: 260px;
+    height: 5px;
+    background: #da1172;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+ }
 
+.middle-title-text h1{
+    color:  #da1172;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
 
 @media screen and (min-width:992px) {
     .menu-nav {
@@ -212,7 +233,10 @@
     .menu-nav .menu-hamburger {
         display: none;
     }
-
+    .menu-nav .menu-center {
+            display: flex;
+    }
+    
     .menu-nav .left-side {
         width: 30%;
         display: flex;
@@ -228,6 +252,7 @@
         
     }
     .menu-nav .right-image {
+        display: flex;
         width: 25px;
     }
     .menu-nav .nav-link {
@@ -247,7 +272,6 @@
         display: flex;
         padding-left: 10px;
         border-radius: 15px ;
-        width: 600px;
         height: 80vh;
         overflow-y: auto;
         
@@ -258,16 +282,20 @@
     }
 
     .menu-nav .right-image img {
-        width: 500px;
-        margin-left: 30px;
+        width: 980px;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 130px;
         margin-right: 20px;
     }
     .menucontent p {
         color: black;
     }
     .menu-nav .right-image-text  {
+        display: flex;
         color: white;
-        margin-top: 400px;
+        margin-top: 550px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -308,6 +336,7 @@
 
 .menu-nav .menucontent h5 {
     color: white;
+    margin-left: 50px;
     margin-top: 20px;
     letter-spacing: 1px;
     font-size: 20px;
@@ -324,5 +353,14 @@
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 10px;
-}    
+} 
+.underline{
+    display: none;
+}
+
+.middle-title-text h1{
+    display: none;
+    
+}
+     
 }

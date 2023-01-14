@@ -33,6 +33,22 @@ img {
     padding-right: 20px;
 }
 
+.middle-home h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.middle-home h3{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;    
+    margin-bottom: 10px;
+}
+
 #slider {
     overflow: hidden;
 }
