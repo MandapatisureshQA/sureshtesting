@@ -54,7 +54,7 @@
 .menu-container .menu-logo-section {
     width: 25px;
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
-    margin-left: 130px;
+    margin-left: 150px;
     margin-right: 180px ;
 }
 .menu-container .menu-close-button {
