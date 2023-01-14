@@ -1,8 +1,5 @@
 .menu-nav {
     margin-top: 10px;
-   /* background-color: #1E80C1; */
-   /* background-color: #414C6B; */
-   /* background: linear-gradient(145deg, #1E80C1, #414C6B); */
 }
 
 
@@ -67,17 +64,17 @@
 .menu-container .menu-links {
     display: flex;
     flex-direction: column;
-    row-gap: 2px;
+    row-gap: 1px;
     margin-left: 150px;
     height: 100vh;
     overflow-y: auto;
 }
 
 ::-webkit-scrollbar {
-    width: 0px;
+    width: 3px;
 } 
 ::-webkit-scrollbar-thumb {
-    background: white;
+    background: black;
 }
 .menu-container .menu-links .nav-link {
      color: white;
@@ -124,6 +121,7 @@
 }
 .menu-nav .menucontent h4 {
     color: red;
+   padding: 2px;
     width: 90%;
     background: rgb(66, 62, 62);
     margin-top: 20px;
@@ -151,7 +149,7 @@
     margin-left: auto;
     margin-right: auto;
     /* color: white; */
-    font-size: 14px;
+    font-size: 15px;
 }
 .menu-nav .menucontent ol li {
     /* width: 95%; */
@@ -160,18 +158,21 @@
     margin-right: auto;
 }
 .menu-nav .menucontent h5 {
-    /* color: white; */
+    color: white;
     background: rgb(66, 62, 62);
     margin-top: 20px;
     margin-left: 18px;
+    padding: 2px;
     margin-right: 60px;
     letter-spacing: 1px;
     /* font-size: 15px; */
     font-weight: bold;
+    font-size: 15px;
 }
 .menu-nav .menucontent p{
     width: 90%;
-    font-size: 14px;
+
+    font-size: 15px;
     /* color: white; */
     margin-left: auto;
     margin-right: auto;
@@ -198,10 +199,10 @@
 
     }
      ::-webkit-scrollbar {
-        width: 5px;
+        width: 10px;
     } 
     ::-webkit-scrollbar-thumb {
-        background: white;
+        background: black;
     }
     .menu-nav .menu-content {
        width: 100%;
@@ -233,7 +234,7 @@
     .menu-nav .nav-link {
         width: 100%;
         color: white;
-        font-size: 12px;
+        font-size: 15px;
         line-height: 2.0;
         font-weight: bold;
     }
@@ -244,15 +245,21 @@
     padding: 4px;
   }  
     .menu-nav .menu-links-main {
+       
         display: flex;
-        /* background: grey;               */
+        background: grey;              
         padding-left: 10px;
         border-radius: 15px ;
-        width: 400px;
+        width: 600px;
         height: 80vh;
         overflow-y: auto;
         
     }
+
+    .menu-nav .menu-nav-links a {
+        color: black;
+    }
+
     .menu-nav .right-image img {
         width: 500px;
         margin-left: 30px;
