@@ -218,14 +218,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: grey;
         
     }
     .menu-nav .right-side {
         width: 70%;
         display: flex;
         margin-left: 20px;
-        background: grey;
+        /* background: grey; */
         
     }
     .menu-nav .right-image {
@@ -233,7 +232,6 @@
     }
     .menu-nav .nav-link {
         width: 100%;
-        color: white;
         font-size: 15px;
         line-height: 2.0;
         font-weight: bold;
@@ -247,7 +245,6 @@
     .menu-nav .menu-links-main {
        
         display: flex;
-        background: grey;              
         padding-left: 10px;
         border-radius: 15px ;
         width: 600px;
