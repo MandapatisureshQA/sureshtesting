@@ -136,6 +136,13 @@
     margin-right: auto;
     width: 90%;
 }
+
+.menu-nav .right-image {
+    display: none;
+}
+.menu-nav .right-image-text {
+    display: none;
+}
 .menu-nav .menucontent ol {
    width: 85%;
     margin-left: auto;
@@ -238,20 +245,23 @@
         /* background: grey;               */
         padding-left: 10px;
         border-radius: 15px ;
-        width: 500px;
+        width: 400px;
         height: 80vh;
         overflow-y: auto;
         
     }
+    .menu-nav .right-image img {
+        width: 500px;
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .menu-nav .right-image-text  {
+        color: white;
+        margin-top: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     
-    .menu-nav .right-side {
-        display: flex;
-        
-    }
-    .menu-nav .menu-center {
-        display: flex;
-    }
-
     .menu-nav .menu-two-parts {
         display: flex;
         column-gap: 150px;
