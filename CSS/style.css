@@ -33,7 +33,18 @@ img {
     padding-right: 20px;
 }
 
+.middle-home {
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /*     
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
+    
+}
 .middle-home h1 {
+    color: #fff;
     font-size: 30px;
     text-align: center;
     margin-top: 10px;
@@ -41,6 +52,7 @@ img {
     margin-right: 5px;
 }
 .middle-home h3{
+    color:  #fff;
     text-align: center;
     font-size: 15px;
     margin-top: 10px;

@@ -23,8 +23,10 @@
     display: flex;
     gap: 10px;
     align-items: center;
-    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .two h1{
     color: white;
@@ -34,9 +36,10 @@
 
 /* menu-aside */
 .menu-container {
-    background: #f857a6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ff5858, #f857a6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ff5858, #f857a6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -196,7 +199,7 @@
  .underline{
     width: 260px;
     height: 5px;
-    background: #da1172;
+    background: #1488CC;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -204,7 +207,7 @@
  }
 
 .middle-title-text h1{
-    color:  #da1172;
+    color:  #1488CC;
     font-size: 30px;
     font-weight: bold;
     text-align: center;
