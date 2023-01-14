@@ -49,7 +49,7 @@
 .menu-container .menu-header {
     display: flex;
     flex-direction: row;
-    
+    justify-content: space-between;
     
 }
 .menu-container .menu-logo-section {
@@ -79,7 +79,7 @@
 }
 .menu-container .menu-links .nav-link {
     color: white;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     /* padding: 5px 10px; */
     font-size: 10px;
     font-weight: bold;
