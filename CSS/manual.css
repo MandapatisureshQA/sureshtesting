@@ -49,7 +49,7 @@
 .menu-container .menu-header {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     
 }
 .menu-container .menu-logo-section {
