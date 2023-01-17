@@ -69,7 +69,7 @@ background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, F
     flex-direction: column;
     row-gap: 1px;
     margin-left: 150px;
-    height: 100vh;
+    height: 93vh;
     overflow-y: auto;
 }
 
@@ -194,8 +194,7 @@ background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, F
 }
 .menu-nav .arrows img{
     width: 30px;
-
- }
+}
  .underline{
     width: 260px;
     height: 5px;
@@ -214,7 +213,6 @@ background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, F
     margin-left: auto;
     margin-right: auto;
 }
-    
 
 @media screen and (min-width:992px) {
     .menu-nav {
@@ -289,8 +287,11 @@ background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, F
         height: 90%;
         justify-content: center;
         align-items: center;
+        margin-top: 20px;
         margin-left: 130px;
         margin-right: 20px;
+        box-shadow: 0 0 10px black;
+        border-radius: 5px;
     }
     .menucontent p {
         color: black;

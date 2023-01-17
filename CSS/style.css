@@ -37,11 +37,7 @@ img {
     background: #1488CC;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    /*     
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%); */
-    
+        
 }
 .middle-home h1 {
     color: #fff;
@@ -58,56 +54,53 @@ img {
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;    
-    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
-#slider {
-    overflow: hidden;
-}
-#slider figure {
-    position: relative;
-    width: 70%%;
-    margin: 0;
-    left: 0;
-    animation: 10s slider infinite;
-}
-
-#slider figure img {
-    float: left;
-    width: 20%;
-}
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-    20% {
-        left: 0;
-    }
-    25% {
-        left: -100%;
-    }
-    45% {
-        left: -100%;
-    }
-    50% {
-        left: -200%;
-    }
-    70% {
-        left: -200%;
-    }
-    75% {
-        left: -300%;
-    }    
-    95% {
-        left: -300%;
-    }
-    100% {
-        left: -400%;
-    }
-}
 .middle-image img {
     width: 60%;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
+}
+.middle-line-container {
+    background: #1488CC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+.middle-line-container .card img {
+    width: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+.middle-line-container .card-container h4{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width:992px) {
+    .middle-line-container {
+        background: #1488CC;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    }
+    .middle-line-container .card img {
+        width: 700px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        box-shadow: 0 0 10px black;
+    }
+    .middle-line-container .card-container h4{
+        color: white;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
 }
