@@ -68,14 +68,15 @@
         display: flex;
         font-weight: bold;
          letter-spacing: 1px;
-         padding: 4px 10px;
+         padding: 2px 3px;
          border-radius: 5px;
          transition: all .3s linear;
     }
     .nav-container .nav-link.active,
     .nav-container .nav-link:hover {
-        background: white;
-        color: black;
+        border: 2px solid white;
+        /* background: white; */
+        /* color: black; */
     }
     
 }
